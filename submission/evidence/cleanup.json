@@ -1,0 +1,8 @@
+{
+  "resource_group": "ai-lab-rg",
+  "delete_command": "az group delete --name ai-lab-rg --yes --no-wait",
+  "verification_command": "az group exists --name ai-lab-rg -o tsv",
+  "resource_group_exists": false,
+  "verified_at": "2026-10-02 21:48:52 +07:00",
+  "status": "Cleanup confirmed; the resource group no longer exists"
+}

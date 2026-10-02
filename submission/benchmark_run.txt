@@ -1,0 +1,19 @@
+{
+  "dataset": "/home/azureuser/ml-benchmark/creditcard.csv",
+  "rows": 284807,
+  "features": 30,
+  "load_data_seconds": 1.221,
+  "training_seconds": 12.934,
+  "best_iteration": 500,
+  "metrics": {
+    "auc_roc": 0.9450954586955773,
+    "accuracy": 0.9995435553526912,
+    "f1": 0.8617021276595744,
+    "precision": 0.9,
+    "recall": 0.826530612244898
+  },
+  "inference_latency_one_row_ms": 1.499,
+  "inference_throughput_1000_rows_per_second": 42381.39,
+  "inference_evaluation_seconds": 1.317
+}
+Saved /home/azureuser/ml-benchmark/benchmark_result.json

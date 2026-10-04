@@ -1,4 +1,4 @@
-1. Tôi dùng Azure, East Asia, Standard_B2als_v2, source commit 55539f67d7c78b43afe334a2ec3271c4bfdbbe2d.
+1. Tôi dùng Azure, East Asia, Standard_B2als_v2, source commit 14ffb79d8e27dc1c2cac9c02beea3f6e1c6123d4.
 2. Dataset có 284.807 dòng, chia train/validation/test 80%/0%/20% theo stratified split, seed 42.
 3. Load dữ liệu mất 1,221 giây; training mất 12,934 giây; best iteration là 500.
 4. AUC 0,945095, Accuracy 0,999544, F1 0,861702, Precision 0,900000, Recall 0,826531 trên tập test.
